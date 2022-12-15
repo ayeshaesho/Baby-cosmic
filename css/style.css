@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500;700;800&family=Montserrat:ital,wght@0,900;1,900&family=Poppins:wght@500&family=Roboto+Condensed&family=Unbounded&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Martian Mono', monospace;
+}
+.hightlight{
+    color: #ff00Bf;
+
+}
+.primary-button{
+    outline: 0;
+    border: 0;
+    padding: 15;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+
+}
+header{
+    background-image: url('../images/cloud.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6)
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+}
+.navigation lia{
+    text-decoration: none;
+    color: rgb(206, 222, 236);
+    font-weight: 600;
+    padding: 15px 10px;
+}
+.banner{
+    height: calc(100vh-80px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-left h1{
+    font-size: 30px;
+    color: #fff;
+}
+
+.banner-left p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
